@@ -86,6 +86,7 @@ for namespace in $NAMESPACES; do
             .metadata.annotations."control-plane.alpha.kubernetes.io/leader",
             .metadata.annotations."kubectl.kubernetes.io/last-applied-configuration",
             .metadata.creationTimestamp,
+            .metadata.managedFields,
             .metadata.generation,
             .metadata.resourceVersion,
             .metadata.selfLink,
